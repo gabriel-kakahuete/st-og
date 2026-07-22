@@ -491,6 +491,7 @@ p{ margin: 0 0 1em; }
   grid-template-columns: 1.2fr 0.8fr;
   gap: 3rem;
   align-items:center;
+  padding: 0 1.5rem;
 }
 
 .check-list{
@@ -522,6 +523,10 @@ p{ margin: 0 0 1em; }
   opacity: 0.9;
 }
 .groupes-seal .seal-svg{ animation: spin-seal 50s linear infinite; }
+.groupes-copy .btn{
+  white-space: normal;
+  word-break: break-word;
+}
 
 .hours-note{
   font-size: 0.85rem;
